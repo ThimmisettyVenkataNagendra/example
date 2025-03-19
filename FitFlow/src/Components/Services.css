@@ -1,0 +1,29 @@
+/* Services Page - Full Viewport */
+.services {
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+    background: linear-gradient(to right, #111, #333); /* Black gradient background */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Heading */
+  .services h1 {
+    font-size: 36px;
+    color: #ff6600; /* Orange Accent */
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph */
+  .services p {
+    font-size: 18px;
+    color: #ccc;
+    max-width: 600px;
+  }
+  

@@ -1,0 +1,108 @@
+/* Footer Styles */
+.footer {
+  background: linear-gradient(to right, #111, #333);
+  color: white;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+
+/* Footer container layout */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Footer sections */
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+  margin: 20px;
+}
+
+/* Section Titles */
+.footer-section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* List Styling */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+/* Footer Links */
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: #ffd700;
+}
+
+/* Contact Section */
+.footer-section.contact p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Social Media Section */
+.footer-social {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: flex-end; /* Align icons to the right */
+  margin-top: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid white;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}

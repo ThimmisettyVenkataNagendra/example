@@ -1,0 +1,62 @@
+/* Offer Section Styles */
+.offer-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #111, #333); /* Black gradient background */
+    color: white;
+    width: 100vw;
+    padding-top: 100px;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #ff6600; /* Orange Accent */
+    text-transform: uppercase;
+  }
+  
+  /* Cards Container */
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Offer Card */
+  .offer-card {
+    background: #222;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(255, 102, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .offer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(255, 102, 0, 0.4);
+  }
+  
+  /* Icons */
+  .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  /* Card Titles */
+  .offer-card h3 {
+    font-size: 20px;
+    color: #ff6600;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Description */
+  .offer-card p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
